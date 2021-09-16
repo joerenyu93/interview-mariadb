@@ -40,7 +40,7 @@
     version: "3.8"
     services:
         mariadb:
-            image: mysql:latest
+            image: mariadb:latest
             container_name: mariadb
             command: --default-authentication-plugin=mysql_native_password
             restart: unless-stopped

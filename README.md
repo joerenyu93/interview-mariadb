@@ -10,7 +10,7 @@
     apt-get remove docker docker-engine docker.io
 
 #### 安裝curl套件
-    apt-get curl
+    apt install curl
 
 #### 然後套件庫更新
     apt-get update

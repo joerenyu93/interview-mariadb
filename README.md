@@ -22,7 +22,7 @@
     curl -L https://github.com/docker/compose/releases/download/1.29.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 
 #### 開啟Docker Compose使用權限
-    chmod +x /usr/bin/docker-compose
+    chmod +x /usr/local/bin/docker-compose
 
 #### 建立一個文件夾
     mkdir interview-mariadb

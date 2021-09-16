@@ -68,7 +68,7 @@
 #### 然後輸入以下指令掛上docker-compose，指令完成後會分別看到mariadb和phpmyadmin都顯示done的字眼
     docker-compose up -d
     
-####
+#### 安裝mariadb-server，方便後續登入
     apt-get install mariadb-server
 
 #### 接下來就可以操作mariadb了，輸入以下指令登入

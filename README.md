@@ -24,9 +24,6 @@
 #### 開啟Docker Compose使用權限
     chmod +x /usr/bin/docker-compose
 
-#### 然後登入剛剛安裝mariadb設定默認賬號
-    mysql -u root -p
-
 #### 建立一個文件夾
     mkdir interview-mariadb
     

@@ -33,7 +33,7 @@
 #### 在目錄底下建立yml文件，待會要給docker-compose使用
     vim docker-compose.yml
     
-#### 輸入以下需要安裝和設定的mariadb和phpmyadmin，另外mariadb資料用volume掛出
+#### 複製貼上以下需要安裝和設定的mariadb和phpmyadmin，另外mariadb資料用volume掛出，然後 Ctrl+C 再輸入 :qw 存檔退出
     version: "3.8"
     services:
         mariadb:
